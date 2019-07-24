@@ -1,0 +1,24 @@
+{
+  "name": "test-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "debug": "node --inspect index.js",
+    "lint": "eslint *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joytailor/node-js-course.git"
+  },
+  "author": "Yegor Ivanovskyy",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "eslint": "^6.1.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.6.6",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.1"
+  }
+}
