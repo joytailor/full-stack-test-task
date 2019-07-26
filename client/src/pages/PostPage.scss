@@ -1,0 +1,12 @@
+ .PostSection {
+   &__content {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 30px 100px;
+   }
+   &__header {
+     display: flex;
+     justify-content: center;
+   }
+ }

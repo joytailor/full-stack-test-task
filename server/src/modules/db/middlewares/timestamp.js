@@ -11,7 +11,7 @@ const setTimeStamp = schema => {
 
     if(!this.createdAt){
       this.createdAt = now;
-    };
+    }
 
     next();
   });

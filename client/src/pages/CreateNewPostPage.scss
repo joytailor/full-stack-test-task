@@ -1,0 +1,70 @@
+.CreatePost {
+  display: flex;
+  justify-content: center;
+  &__form {
+    width: 390px;
+    height: 370px;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #F1F0F2;
+    border: solid 1px #DADADA;
+    border-radius: 4px;
+  }
+  &__field--input {
+    height: 30px;
+    border-radius: 5px;
+    width: 95%;
+    margin-top: 5px;
+    border: none;
+    padding: 10px;
+    &::placeholder {
+      font-family: 'Avenir', Helvetica, Arial, sans-serif;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: #D2C5C5;
+    }
+    &:focus {
+      outline: none;
+    }
+  }
+  &__field--textarea {
+    resize: none;
+    border-radius: 5px;
+    width: 95%;
+    height: 100px;
+    margin-top: 5px;
+    border: none;
+    padding: 10px;
+    &::placeholder {
+      font-family: 'Avenir', Helvetica, Arial, sans-serif;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: #D2C5C5;
+    }
+    &:focus {
+      outline: none;
+    }
+  }
+  &__label {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #6E0606;
+  }
+  &__button {
+    height: 40px;
+    padding: 5px;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    background-color: #6E0606;
+    color: #F1F0F2;
+    &:focus {
+      outline: none;
+    }
+  }
+}
